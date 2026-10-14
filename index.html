@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta property="og:title" content="Scowtt Agentic Onboarding">
+<meta property="og:type" content="video.other">
+<title>Scowtt Agentic Onboarding</title>
+<style>
+/* Layout: one centered column — wordmark, title, 16:9 player */
+:root {
+  --bg: #f7f6fb; --fg: #1d1a2b; --muted: #6a6580; --violet: #5b3fd6; --coral: #ff6b57; --frame: #e6e2f3;
+  --display: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #121019; --fg: #eeebf7; --muted: #a29cba; --violet: #9c86ff; --coral: #ff8a78; --frame: #2a2638; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #121019; --fg: #eeebf7; --muted: #a29cba; --violet: #9c86ff; --coral: #ff8a78; --frame: #2a2638; color-scheme: dark }
+body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--body); padding: 0 16px; }
+main { max-width: 960px; margin: 0 auto; padding-block: 40px 56px; display: grid; gap: 20px; }
+.brand { font-size: 12px; letter-spacing: .14em; text-transform: uppercase; font-weight: 600; color: var(--violet); }
+.brand span { color: var(--coral); }
+h1 { font-family: var(--display); font-weight: 600; font-size: clamp(26px, 4vw, 38px); line-height: 1.15; margin: 0; text-wrap: balance; }
+video { display: block; width: 100%; max-width: 100%; aspect-ratio: 16 / 9; background: #000; border-radius: 10px; border: 1px solid var(--frame); }
+p { margin: 0; color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="brand">Scowtt<span>.</span></div>
+  <h1>Agentic onboarding</h1>
+  <video controls playsinline preload="metadata" src="scowtt-agentic-onboarding-short.mp4"></video>
+  <p>30-second overview · plays in any browser on desktop or phone</p>
+</main>
+</body>
+</html>
